@@ -12,6 +12,7 @@ import {
   MdKeyboardarrowrightRound,
   BiArrowLeftCircleFill,
   BiArrowRightCircleFill,
+  FaSpinner,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -19,7 +20,8 @@ addIcons(
   MdKeyboardarrowrightRound,
   MdKeyboardarrowleftRound,
   BiArrowLeftCircleFill,
-  BiArrowRightCircleFill
+  BiArrowRightCircleFill,
+  FaSpinner
 );
 
 const app = createApp(App);

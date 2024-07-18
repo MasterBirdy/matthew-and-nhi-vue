@@ -1,8 +1,8 @@
 import { reactive } from "vue";
 
 function generatedRandomIds() {
-  const badNumbers = [186, 190];
-  const numbers = Array.from({ length: 350 }, (_, i) => i + 1).filter(
+  const badNumbers = [186, 190, 654, 1034, 1035, 1059, 1144, 1153, 1294];
+  const numbers = Array.from({ length: 1926 }, (_, i) => i + 1).filter(
     (i) => !badNumbers.includes(i)
   );
 
